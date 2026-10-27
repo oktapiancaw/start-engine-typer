@@ -1,0 +1,9 @@
+{
+    "project_name": "My Engine",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "cli_command": "{{ cookiecutter.project_slug }}",
+    "package_description": "A long-running engine (streaming / batching / scheduling) with a thin Typer CLI",
+    "author_name": "Your Name",
+    "author_email": "you@example.com",
+    "python_version": "3.12"
+}
