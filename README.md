@@ -15,7 +15,7 @@ and rarely changes — real work lives in `src/core/`.
 ## Generate a project
 
 ```bash
-uvx cookiecutter https://git.blackeye.id/utility/start-engine-typer.git
+uvx cookiecutter gh:oktapiancaw/start-engine-typer
 # or from a local clone:
 uvx cookiecutter path/to/start-engine-typer
 ```
